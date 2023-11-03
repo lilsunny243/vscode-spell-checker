@@ -71,7 +71,7 @@
     "vscode-uri": "^3.0.7",
     "vscode-webview-rpc": "file:../webview-rpc",
     "webview-api": "file:../webview-api",
-    "yaml": "^2.3.2"
+    "yaml": "^2.3.4"
   },
   "engines": {
     "node": ">18.0.0"
