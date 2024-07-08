@@ -51,7 +51,7 @@
     "cspell-gitignore": "^7.3.6",
     "cspell-glob": "^7.3.6",
     "cspell-lib": "^7.3.6",
-    "gensequence": "^6.0.0",
+    "gensequence": "^7.0.0",
     "node-watch": "^0.7.4",
     "rxjs": "^7.8.1",
     "vscode-languageserver": "^9.0.1",
