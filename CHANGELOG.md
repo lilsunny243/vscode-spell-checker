@@ -2,6 +2,91 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.2](https://github.com/lilsunny243/vscode-spell-checker/compare/code-spell-checker-v3.0.1...code-spell-checker-v2.5.2) (2024-07-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade to CSpell 7 ([#2745](https://github.com/lilsunny243/vscode-spell-checker/issues/2745))
+
+### Features
+
+* Add setting to hide add to code actions ([#2432](https://github.com/lilsunny243/vscode-spell-checker/issues/2432)) ([abdee0d](https://github.com/lilsunny243/vscode-spell-checker/commit/abdee0d3bfaa5ab799803e86ed793328be8632e0))
+* bump cspell from 6.18.1 to 6.19.2 ([#2457](https://github.com/lilsunny243/vscode-spell-checker/issues/2457)) ([8c09fe4](https://github.com/lilsunny243/vscode-spell-checker/commit/8c09fe41b14fea8efec3e457481d5aea7ee7e6cf))
+* Format CSpell Configuration on Update ([#2163](https://github.com/lilsunny243/vscode-spell-checker/issues/2163)) ([7bb694f](https://github.com/lilsunny243/vscode-spell-checker/commit/7bb694fa2ec0c857e554b30bc7b8777f006dfbfb))
+* Support Auto Fix of preferred suggestions. ([#2392](https://github.com/lilsunny243/vscode-spell-checker/issues/2392)) ([29a99a0](https://github.com/lilsunny243/vscode-spell-checker/commit/29a99a0277f21c673f6f3b4a5cb3322f199e3fb0))
+* Support detecting CSpell Directive issues ([#2168](https://github.com/lilsunny243/vscode-spell-checker/issues/2168)) ([16a28ab](https://github.com/lilsunny243/vscode-spell-checker/commit/16a28ab9d01e76203b57d89fb771a516b103f1ee))
+* Support script locals ([#2437](https://github.com/lilsunny243/vscode-spell-checker/issues/2437)) ([c471643](https://github.com/lilsunny243/vscode-spell-checker/commit/c47164320c51ab71a37f43fa140748a5a17bf3ad))
+* Support UTF-16 words lists ([#2549](https://github.com/lilsunny243/vscode-spell-checker/issues/2549)) ([3222dcc](https://github.com/lilsunny243/vscode-spell-checker/commit/3222dcc18b137411cb634e1036354d71191ef6aa))
+* Update `cspell` to 6.17.0 ([a3362c4](https://github.com/lilsunny243/vscode-spell-checker/commit/a3362c45c1e80f0aae27c97b9927d8b8c50f18d3))
+* Update `cspell` to 6.17.0 ([#2387](https://github.com/lilsunny243/vscode-spell-checker/issues/2387)) ([a950ec5](https://github.com/lilsunny243/vscode-spell-checker/commit/a950ec54ed1794a3589d03e9db98a2df6793fabe))
+* Update CSpell to 6.14.0 ([#2324](https://github.com/lilsunny243/vscode-spell-checker/issues/2324)) ([920e97e](https://github.com/lilsunny243/vscode-spell-checker/commit/920e97ee37b99dd4f94b5345947c96bb87217d63))
+* Update CSpell to 6.19.2 ([#2454](https://github.com/lilsunny243/vscode-spell-checker/issues/2454)) ([70b65a9](https://github.com/lilsunny243/vscode-spell-checker/commit/70b65a99c44b964de53e5580cfa1d7655c0e23aa))
+* Update CSpell to 6.20.1 ([#2493](https://github.com/lilsunny243/vscode-spell-checker/issues/2493)) ([06118ca](https://github.com/lilsunny243/vscode-spell-checker/commit/06118cabb6292c20483614a802938601b1561409))
+* Update cspell to 6.21.0 ([#2498](https://github.com/lilsunny243/vscode-spell-checker/issues/2498)) ([b5b8dbc](https://github.com/lilsunny243/vscode-spell-checker/commit/b5b8dbcd30135d986090eb13b48bf809ec93c145))
+* Update CSpell to 6.29.0 ([#2578](https://github.com/lilsunny243/vscode-spell-checker/issues/2578)) ([4e4adb4](https://github.com/lilsunny243/vscode-spell-checker/commit/4e4adb4952c1dc6b4a8f319e10f51ff1f7d88f59))
+* Update CSpell to 6.9.0 ([#2228](https://github.com/lilsunny243/vscode-spell-checker/issues/2228)) ([5022568](https://github.com/lilsunny243/vscode-spell-checker/commit/5022568c1aa5db1a0aa0e0a30130d0b11c735894))
+* Update to cspell 6.11.1 ([#2262](https://github.com/lilsunny243/vscode-spell-checker/issues/2262)) ([46fd22e](https://github.com/lilsunny243/vscode-spell-checker/commit/46fd22edf8b1cc8f9a264e950c2a9275a7ea4825))
+* Update to CSpell 6.28.0 ([#2566](https://github.com/lilsunny243/vscode-spell-checker/issues/2566)) ([d6050dd](https://github.com/lilsunny243/vscode-spell-checker/commit/d6050dd7849bd7cd820bfef84b7eeb5d64731325))
+* Update VSCode required version to 1.80.0 ([#2776](https://github.com/lilsunny243/vscode-spell-checker/issues/2776)) ([e822d6e](https://github.com/lilsunny243/vscode-spell-checker/commit/e822d6eaef137f659feac743b19fdd39bd980224))
+* Upgrade to CSpell 6.12.0 ([#2264](https://github.com/lilsunny243/vscode-spell-checker/issues/2264)) ([ca56663](https://github.com/lilsunny243/vscode-spell-checker/commit/ca56663446c79200ce75e62709beeef2ebe042f7))
+* Upgrade to CSpell 6.26.1 ([#2521](https://github.com/lilsunny243/vscode-spell-checker/issues/2521)) ([9e6a5e1](https://github.com/lilsunny243/vscode-spell-checker/commit/9e6a5e1f1cf40a6b2bd397dc6b229f05f23b3196))
+* Upgrade to CSpell 7 ([#2745](https://github.com/lilsunny243/vscode-spell-checker/issues/2745)) ([5a60904](https://github.com/lilsunny243/vscode-spell-checker/commit/5a609043da987f4a1c55641ec7e2c8501655c0ea))
+* Upgrade vscode-language-server ([#2840](https://github.com/lilsunny243/vscode-spell-checker/issues/2840)) ([b0af8f9](https://github.com/lilsunny243/vscode-spell-checker/commit/b0af8f90d209907cfb9244af296334ee62427df6))
+
+
+### Updates and Bug Fixes
+
+* [#2212](https://github.com/lilsunny243/vscode-spell-checker/issues/2212) ([8b24075](https://github.com/lilsunny243/vscode-spell-checker/commit/8b2407549037c5816167e1df628d67dd5ce14d26))
+* [#2335](https://github.com/lilsunny243/vscode-spell-checker/issues/2335) ([d4ce7fc](https://github.com/lilsunny243/vscode-spell-checker/commit/d4ce7fc4b5cfc7c766ed991af4cbe5617024a6ab))
+* add `erlang` to default enabledLanguageIds ([#2133](https://github.com/lilsunny243/vscode-spell-checker/issues/2133)) ([701fe3d](https://github.com/lilsunny243/vscode-spell-checker/commit/701fe3dc38f850523b0e25838f4976bfe26e08df))
+* Add support for the other of GistPad's two URI schemes `repo://` ([e1e6c11](https://github.com/lilsunny243/vscode-spell-checker/commit/e1e6c117752c0953434e40f9dd6e0d48b80ad038))
+* bump cspell from 6.5.0 to 6.6.0 ([#2138](https://github.com/lilsunny243/vscode-spell-checker/issues/2138)) ([0fd6690](https://github.com/lilsunny243/vscode-spell-checker/commit/0fd6690a31f2ca6563dbd042bed5c034c790630a))
+* change `fixSpellingWithRenameProvider` defaults ([#2271](https://github.com/lilsunny243/vscode-spell-checker/issues/2271)) ([bea43a7](https://github.com/lilsunny243/vscode-spell-checker/commit/bea43a7a256bee6ca556e02ba66a3edef7346481))
+* Correct error message for Maximum Word Length Exceeded ([#2336](https://github.com/lilsunny243/vscode-spell-checker/issues/2336)) ([d4ce7fc](https://github.com/lilsunny243/vscode-spell-checker/commit/d4ce7fc4b5cfc7c766ed991af4cbe5617024a6ab)), closes [#2335](https://github.com/lilsunny243/vscode-spell-checker/issues/2335)
+* Correctly format config files ([#2532](https://github.com/lilsunny243/vscode-spell-checker/issues/2532)) ([fbcda3e](https://github.com/lilsunny243/vscode-spell-checker/commit/fbcda3e78f155071dbdc0a811b2682556f987e62))
+* Do not show context menu if `editorReadonly` ([#2590](https://github.com/lilsunny243/vscode-spell-checker/issues/2590)) ([86aeafd](https://github.com/lilsunny243/vscode-spell-checker/commit/86aeafdcb8f9b948a9e9973fed9fcfaebf4bcd2d))
+* Do not show duplicate actions. ([#2528](https://github.com/lilsunny243/vscode-spell-checker/issues/2528)) ([9a29344](https://github.com/lilsunny243/vscode-spell-checker/commit/9a2934469a953e9bd5caf3cf3b544c2c12c38b06))
+* Enable `useGitignore` at folder level. ([#2200](https://github.com/lilsunny243/vscode-spell-checker/issues/2200)) ([61fb943](https://github.com/lilsunny243/vscode-spell-checker/commit/61fb9433d4179bd3966bb9b6860183bd92760c4d))
+* extension crash ([#2533](https://github.com/lilsunny243/vscode-spell-checker/issues/2533)) ([eaf7eea](https://github.com/lilsunny243/vscode-spell-checker/commit/eaf7eea282cfa10dfbac82134e4f739416879eb1))
+* Fix create config file ([#2214](https://github.com/lilsunny243/vscode-spell-checker/issues/2214)) ([8b24075](https://github.com/lilsunny243/vscode-spell-checker/commit/8b2407549037c5816167e1df628d67dd5ce14d26)), closes [#2212](https://github.com/lilsunny243/vscode-spell-checker/issues/2212)
+* Fix glob in description of `spellCheckOnlyWorkspaceFiles` ([#2193](https://github.com/lilsunny243/vscode-spell-checker/issues/2193)) ([ad01d1e](https://github.com/lilsunny243/vscode-spell-checker/commit/ad01d1e92a65b64b93b40053a7ff636f46a3e754))
+* fix typo ([#2730](https://github.com/lilsunny243/vscode-spell-checker/issues/2730)) ([8f39e66](https://github.com/lilsunny243/vscode-spell-checker/commit/8f39e665644ee10a1ad4094ec8dfae8ede100e9e))
+* groundwork towards adding a new viewer ([#2509](https://github.com/lilsunny243/vscode-spell-checker/issues/2509)) ([f8691ae](https://github.com/lilsunny243/vscode-spell-checker/commit/f8691ae5a44ba75791d7b2021dd6b913c24ee620))
+* Issue with spell checking SCM message ([#2774](https://github.com/lilsunny243/vscode-spell-checker/issues/2774)) ([1766a28](https://github.com/lilsunny243/vscode-spell-checker/commit/1766a28f6c4c6b380b81899619f221930f50f5c9))
+* lint issues and improve error handling ([#2825](https://github.com/lilsunny243/vscode-spell-checker/issues/2825)) ([dfa5889](https://github.com/lilsunny243/vscode-spell-checker/commit/dfa58898a5b3a6e34f66e824c80deae9c3b24eff))
+* Lock `@types/vscode` version ([#2619](https://github.com/lilsunny243/vscode-spell-checker/issues/2619)) ([35fac93](https://github.com/lilsunny243/vscode-spell-checker/commit/35fac93a8cc454a203de531069cb4e31d6820976))
+* Log the entire error ([#2596](https://github.com/lilsunny243/vscode-spell-checker/issues/2596)) ([1089dec](https://github.com/lilsunny243/vscode-spell-checker/commit/1089dec07c68cc3c379b754681f1d2f875cc445c))
+* make sure `noSuggest` custom dictionaries are possible. ([#2431](https://github.com/lilsunny243/vscode-spell-checker/issues/2431)) ([4a23e09](https://github.com/lilsunny243/vscode-spell-checker/commit/4a23e090598483a9814abb27dff9d95a407b90b3))
+* remove dependency upon `file-loader` and `url-loader` ([#2393](https://github.com/lilsunny243/vscode-spell-checker/issues/2393)) ([44ab01a](https://github.com/lilsunny243/vscode-spell-checker/commit/44ab01afd95536b9ea415969a2436040813b76cc))
+* Remove package jest-mock-vscode ([#2130](https://github.com/lilsunny243/vscode-spell-checker/issues/2130)) ([494cf60](https://github.com/lilsunny243/vscode-spell-checker/commit/494cf606e461767ad0b57c9dde9438aacce2ce49))
+* Update cspell ([#2601](https://github.com/lilsunny243/vscode-spell-checker/issues/2601)) ([f6d0ca4](https://github.com/lilsunny243/vscode-spell-checker/commit/f6d0ca4ebe1899ae329a682a2cd5d7821603b7da))
+* Update CSpell and use Vitest ([#2609](https://github.com/lilsunny243/vscode-spell-checker/issues/2609)) ([6afcb3c](https://github.com/lilsunny243/vscode-spell-checker/commit/6afcb3cf9b1da57a33f3847dc7998c6264cad0ef))
+* Update CSpell dictionaries ([3e8a40d](https://github.com/lilsunny243/vscode-spell-checker/commit/3e8a40d3b02af5b4cbfd30dc986ba8b364e48f6a))
+* Update CSpell to 6.30.0 ([#2588](https://github.com/lilsunny243/vscode-spell-checker/issues/2588)) ([8c5287f](https://github.com/lilsunny243/vscode-spell-checker/commit/8c5287fac2fa983fbb86549c3770dc6fa94e5a73))
+* Update CSpell to 6.30.2 ([#2599](https://github.com/lilsunny243/vscode-spell-checker/issues/2599)) ([16209ee](https://github.com/lilsunny243/vscode-spell-checker/commit/16209eee7f5aab360fff3ec733b17f57e8c5a958))
+* Update directive suggestion text. ([#2182](https://github.com/lilsunny243/vscode-spell-checker/issues/2182)) ([92ae379](https://github.com/lilsunny243/vscode-spell-checker/commit/92ae3794e346b79b7cca2ab96de8a88c1ceb6224))
+* Update glob to match only files in workspace folders ([#2195](https://github.com/lilsunny243/vscode-spell-checker/issues/2195)) ([9c89f2f](https://github.com/lilsunny243/vscode-spell-checker/commit/9c89f2f8fbf5864f58442c6b35da05aca00550e4)), closes [#2192](https://github.com/lilsunny243/vscode-spell-checker/issues/2192)
+* Update jest to 28 ([#2161](https://github.com/lilsunny243/vscode-spell-checker/issues/2161)) ([4a62498](https://github.com/lilsunny243/vscode-spell-checker/commit/4a624986813db4033327bfbfe72bbacbbfefa37d))
+* Update list of supported language Ids ([#2796](https://github.com/lilsunny243/vscode-spell-checker/issues/2796)) ([e169d64](https://github.com/lilsunny243/vscode-spell-checker/commit/e169d6412c63afc2012c47f44418924c9d65e5f9))
+* Update README. ([369538f](https://github.com/lilsunny243/vscode-spell-checker/commit/369538f26e60a7069660cb437970369ddf13d9c7))
+* Update sponsor link ([#2577](https://github.com/lilsunny243/vscode-spell-checker/issues/2577)) ([bd033bb](https://github.com/lilsunny243/vscode-spell-checker/commit/bd033bb847ca378ff80330a46fdd467f62e26751))
+* Update to CSpell 6.15.0 ([#2364](https://github.com/lilsunny243/vscode-spell-checker/issues/2364)) ([946a7c7](https://github.com/lilsunny243/vscode-spell-checker/commit/946a7c7f7be142cb7ffeea1c4076b094a7b66508))
+* Use markdown in settings descriptions. ([#2786](https://github.com/lilsunny243/vscode-spell-checker/issues/2786)) ([b4697fe](https://github.com/lilsunny243/vscode-spell-checker/commit/b4697fe8247590b605ac9f2de251bdf01f5e0e96))
+* Use VSCode FileSystem to read/write config. ([#2162](https://github.com/lilsunny243/vscode-spell-checker/issues/2162)) ([00e5eea](https://github.com/lilsunny243/vscode-spell-checker/commit/00e5eea6de89e03e50caae5c9bd648b7260901b5))
+* Use Workspace edits for making fixes. ([#2589](https://github.com/lilsunny243/vscode-spell-checker/issues/2589)) ([23a0df9](https://github.com/lilsunny243/vscode-spell-checker/commit/23a0df9704e0897b921af9c3c32a6fdf01a23c6c))
+
+
+### Miscellaneous
+
+* release 2.5.2 ([7b68825](https://github.com/lilsunny243/vscode-spell-checker/commit/7b688253775e66e23dbfaa2360b8518f49af6480))
+* release 2.5.2-alpha.0 ([865d8be](https://github.com/lilsunny243/vscode-spell-checker/commit/865d8bea4ff47c6bf14473810f373f870b876ff9))
+
+
+### Code Refactoring
+
+* Start moving the code for better sharing. ([#2561](https://github.com/lilsunny243/vscode-spell-checker/issues/2561)) ([beddb1f](https://github.com/lilsunny243/vscode-spell-checker/commit/beddb1f27b41e4aa9664fb5c5b9622dfaa850638))
+
 ## [3.0.1](https://github.com/streetsidesoftware/vscode-spell-checker/compare/code-spell-checker-v3.0.0...code-spell-checker-v3.0.1) (2023-09-11)
 
 
