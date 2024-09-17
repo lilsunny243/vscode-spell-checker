@@ -2611,7 +2611,7 @@
     "shx": "^0.3.4",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2",
-    "vite": "^5.2.11",
+    "vite": "^5.4.6",
     "vitest": "^0.34.5"
   },
   "dependencies": {
